@@ -6,7 +6,7 @@ I have used same k8s-specifications folder as in [example-voting-app](https://gi
 
 ##### Prerequisites
 
- Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli), [AWS-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and [KubeCTL](https://kubernetes.io/docs/tasks/tools/) and AWS Account ready.
+ Install [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli), [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [kubectl](https://kubernetes.io/docs/tasks/tools/) and AWS Account ready.
 
 1. Clone this repo (or use all terraform files and copy them to parent folder of original voting app that is given in the home assignment).
 
