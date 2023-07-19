@@ -1,4 +1,4 @@
-<p align="center">  Home Assignment - to deploy Example Voting App with Terraform to AWS</p>
+<h1 align="center">  Home Assignment - to deploy Example Voting App with Terraform to AWS</h1>
 
 #### Instructions on how to install voting application:
 
