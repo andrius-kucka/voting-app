@@ -2,15 +2,15 @@
 
 #### Instructions on how to install voting application:
 
-I have used same k8s-specifications folder as in [example-voting-app](https://github.com/dockersamples/example-voting-app). It can just be pulled from the given link and with given tf files the application get deployed to AWS as well.
+Source is used from given voting application in Home Assigment [example-voting-app](https://github.com/dockersamples/example-voting-app). Added Terraform files and edited deployment files for HPA to be enabled.
 
 ##### Prerequisites
 
  Install [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli), [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [kubectl](https://kubernetes.io/docs/tasks/tools/) and AWS Account ready.
 
-1. Clone this repo (or use all terraform files and copy them to parent folder of original voting app that is given in the home assignment).
+1. Clone this repo.
 
-2. Get or create an IAM User on your AWS Account with following access rights:
+2. Have in place AWS account and get or create an IAM User on your AWS Account with following access rights:
  **AdministratorAccess** and **AmazonEKSClusterPolicy** 
 
 3. From the region that will be used get two different subnet id's. Add them in the `values.tfvars` file at the root of this project (replace `subnet-id1` and `subnet-id2`).
